@@ -96,5 +96,6 @@ class PathD {
 }
 
 if (typeof require == 'function') {
+	exports.MPlusCsPlusMaybeZ = MPlusCsPlusMaybeZ;
 	exports.PathD = PathD;
 }
