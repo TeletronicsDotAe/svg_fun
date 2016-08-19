@@ -21,7 +21,8 @@ class Point {
 
 class MPlusCsPlusMaybeZ {
 
-    constructor(initialM, consecutiveCs, endingZ) {
+    constructor(pathDStr, initialM, consecutiveCs, endingZ) {
+        this.pathDStr = pathDStr;
         this.initialM = initialM;
         this.consecutiveCs = consecutiveCs;
         this.endingZ = endingZ;
@@ -60,7 +61,7 @@ class MPlusCsPlusMaybeZ {
             }
         }
 
-        return new MPlusCsPlusMaybeZ(initialM, consecutiveCs, endingZ);
+        return new MPlusCsPlusMaybeZ(pathDStr, initialM, consecutiveCs, endingZ);
     }
 
     toString() {
